@@ -44,10 +44,11 @@ function Dashboard() {
         </h3>
         <br />
         <button>
-          <a href="https://www.ecovader.biz/regionselect">Region Select</a>
+          <a href="/regionselect">Region Select</a>
         </button>
+        <br />
         <button>
-          <a href="https://www.ecovader.biz/community">Community</a>
+          <a href="/community">Community</a>
         </button>
       </header>
     </div>

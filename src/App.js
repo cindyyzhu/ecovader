@@ -8,8 +8,8 @@ function App() {
   return (
     <Routes>
         <Route exact path="/" element={<Dashboard />}> </Route>
-        <Route exact path="https://www.ecovader.biz/regionselect" element={<Regionselect />}> </Route>
-        <Route exact path="https://www.ecovader.biz/community" element={<Community />}> </Route>
+        <Route exact path="/regionselect" element={<Regionselect />}> </Route>
+        <Route exact path="/community" element={<Community />}> </Route>
     </Routes>
   );
 }

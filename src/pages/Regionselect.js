@@ -34,17 +34,17 @@ function Regionselect() {
         <br />
         <br />
         <button>
-            <a href="http://localhost:3001/community">Toronto, ON</a>
+            <a href="https://www.ecovader.biz/community">Toronto, ON</a>
         </button>
         <br />
         <br />
         <button>
-            <a href="http://localhost:3001/community">Vaughan, ON</a>
+            <a href="https://www.ecovader.biz/community">Vaughan, ON</a>
         </button>
         <br />
         <br />
         <button>
-            <a href="http://localhost:3001/community">Missisauga, ON</a>
+            <a href="https://www.ecovader.biz/community">Missisauga, ON</a>
         </button>
         <br />
         <br />
