@@ -24,6 +24,12 @@ function Dashboard() {
         <button>
             <a href="https://lens.google.com/search">Start Searching</a>
         </button>
+        <button>
+          <a href="http://localhost:3001/regionselect">Region Select</a>
+        </button>
+        <button>
+          <a href="http://localhost:3001/community">Community</a>
+        </button>
       </header>
     </div>
   );
