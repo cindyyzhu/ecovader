@@ -25,10 +25,10 @@ function Dashboard() {
             <a href="https://lens.google.com/search">Start Searching</a>
         </button>
         <button>
-          <a href="http://localhost:3001/regionselect">Region Select</a>
+          <a href="https://www.ecovader.biz/regionselect">Region Select</a>
         </button>
         <button>
-          <a href="http://localhost:3001/community">Community</a>
+          <a href="https://www.ecovader.biz/community">Community</a>
         </button>
       </header>
     </div>
