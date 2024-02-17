@@ -39,9 +39,9 @@ function Bgleaf() {
     return <img src="https://i.imgur.com/JDRvyYe.jpg" width={200} height={100} alt="leaf background" />;
 }
 
-function Regionselect() {
+function Community() {
   return (
-    <div className = "Dashboard">
+    <div className = "Community">
       <DashboardBg />
       <header className = "flex flex-col gap-4 justify-center items-center">
         <h1 className="text-9xl font-bold text-white stroke-black">Community Forum</h1>
@@ -58,4 +58,4 @@ function Regionselect() {
   );
 }
 
-export default Regionselect;
+export default Community;

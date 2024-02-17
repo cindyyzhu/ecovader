@@ -20,7 +20,7 @@ function Bgleaf() {
 
 function Regionselect() {
   return (
-    <div className = "Dashboard">
+    <div className = "Region Select">
       <DashboardBg />
       <header className = "flex flex-col gap-4 justify-center items-center">
         <h1 className="text-3xl text-gray-900 font-bold no-underline not-italic normal-case">Welcome to <i>ecovader!</i></h1>
