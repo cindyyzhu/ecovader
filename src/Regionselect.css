@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Dashboard {
+  text-align: center;
+}
+
+.Ecovaderlogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Ecovaderlogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Regionselect-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Regionselect-link {
+  color: #236D5E;
+}
+
+@keyframes Ecovaderlogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  background-color: #68AF91;
+  border-radius: 8px;
+  border-bottom: 4px solid #236D5E;
+  color: rgb(104,175,145);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #b2e3ff;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #a0abb4;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
+
+button:active {
+  background-color: #b2e3ff;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #a0abb4;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
