@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Regionselect from './Regionselect';
-import Community from './Community';
+import Regionselect from './pages/Regionselect';
+import Community from './pages/Community';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 

@@ -1,8 +1,8 @@
 import './App.css';
 import {Route, Routes} from "react-router-dom";
-import Dashboard from "./Dashboard";
-import Regionselect from "./Regionselect";
-import Community from "./Community";
+import Dashboard from "./pages/Dashboard";
+import Regionselect from "./pages/Regionselect";
+import Community from "./pages/Community";
 
 function App() {
   return (
