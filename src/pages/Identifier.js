@@ -1,6 +1,7 @@
 import "./Community.css";
 import { Link } from "react-router-dom";
 import {useEffect, useState} from "react";
+import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
 function InputComponent() {
   // Declare state variables to hold input values
@@ -100,4 +101,4 @@ function Identifier() {
   );
 }
 
-export default Identifier;
+export default withAuthenticationRequired(Identifier);

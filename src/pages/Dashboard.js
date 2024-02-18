@@ -1,6 +1,7 @@
 import "./Dashboard.css";
 import { Link } from "react-router-dom";
 import {useEffect, useState} from "react";
+import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
 function DashboardBg() {
   return <style>{'body {background-color: #BBE3D4; }' } </style>
@@ -60,11 +61,9 @@ function Dashboard() {
         <br />
         </header>
         <br />
-        <InputComponent/>
-        <br />
         <br />
         <button style={{ width: '260px', backgroundColor: '#EF83AD', border: 'none', padding: '10px', color: 'white'}}>
-          <a href="/regionselect" style={{ textDecoration: 'none', color: 'inherit' }}>Continue to Web!</a>
+          <a href="/regionselect" style={{ textDecoration: 'none', color: 'inherit' }}>Login & Continue to Web!</a>
         </button>
         <br />
         <br />
@@ -79,4 +78,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default withAuthenticationRequired(Dashboard);
