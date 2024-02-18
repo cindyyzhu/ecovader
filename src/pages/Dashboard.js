@@ -63,7 +63,7 @@ function Dashboard() {
         <br />
         <br />
         <button style={{ width: '260px', backgroundColor: '#EF83AD', border: 'none', padding: '10px', color: 'white'}}>
-          <a href="/regionselect" style={{ textDecoration: 'none', color: 'inherit' }}>Login & Continue to Web!</a>
+          <a href="/regionselect" style={{ textDecoration: 'none', color: 'inherit' }}>Continue to Web!</a>
         </button>
         <br />
         <br />
