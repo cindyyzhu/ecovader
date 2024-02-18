@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Routes>
-        <Route exact path="/dashboard" element={<Dashboard />}> </Route>
+        <Route exact path="/" element={<Dashboard />}> </Route>
         <Route exact path="/regionselect" element={<Regionselect />}> </Route>
         <Route exact path="/community" element={<Community />}> </Route>
         <Route exact path="/identifier" element={<Identifier />}> </Route>
