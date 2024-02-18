@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.Dashboard {
+.Regionselect {
   text-align: center;
 }
 
@@ -47,7 +47,7 @@ button {
   background-color: #68AF91;
   border-radius: 8px;
   border-bottom: 4px solid #236D5E;
-  color: rgb(104,175,145);
+  color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-  background-color: #b2e3ff;
+  background-color: #627472;
   border: none;
   border-radius: 8px;
   border-bottom: 4px solid #a0abb4;
@@ -73,7 +73,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #b2e3ff;
+  background-color: #0B3B36;
   border: none;
   border-radius: 8px;
   border-bottom: 4px solid #a0abb4;

@@ -11,6 +11,12 @@
   pointer-events: none;
 }
 
+.InputComponent{
+  height:100vmin;
+  pointer-events: none;
+  width:300vmin;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .Ecovaderlogo {
     animation: App-logo-spin infinite 20s linear;

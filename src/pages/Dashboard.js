@@ -7,7 +7,7 @@ function DashboardBg() {
 }
 
 function EcovaderLogo() {
-  return <img src="https://i.imgur.com/IXuOuum.png" width={250} height={250} alt="ecovader logo" />;
+  return <img src="https://i.imgur.com/IXuOuum.png" width={500} height={420} alt="ecovader logo" />;
 }
 
 function InputComponent() {
@@ -23,34 +23,58 @@ function InputComponent() {
     <div>
       {/* Input field with an onChange event */}
       <input
+        style={{
+          width: '60%',
+          height: '80%',
+          padding: '10px',
+          fontSize: '16px',
+          borderRadius: '10px',
+          border: '0.5px solid #0B3B36',
+          boxShadow: '0px 0px 10px 0px #0B3B36',
+          boxSizing: 'border-box',
+          textAlign: 'left',
+        }}
         type="text"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Enter your email to log-in:"
+        placeholder="Enter your email address to continue: "
       />
     </div>
   );
+}
+
+function HeaderBg() {
+    return <style>{'header {background-color: #236D5E; }' } </style>
 }
 
 function Dashboard() {
   return (
     <div className = "Dashboard">
       <DashboardBg />
+      <HeaderBg />
       <header className = "flex flex-col gap-4 justify-center items-center">
-        <h1 className="text-9xl font-bold text-white stroke-black">Welcome to <i>ecovader!</i></h1>
         <br />
         <EcovaderLogo />
-        <h3 className="text-4xl font-bold text-white">Your personal invasive species toolkit.
-        </h3>
+        <h1 className="text-9xl font-bold text-white stroke-black">Your personal invasive species toolkit.
+        </h1>
         <br />
-        <button>
-          <a href="/regionselect">Region Select</a>
+        </header>
+        <br />
+        <InputComponent/>
+        <br />
+        <br />
+        <button style={{ width: '260px', backgroundColor: '#EF83AD', border: 'none', padding: '10px', color: 'white'}}>
+          <a href="/regionselect" style={{ textDecoration: 'none', color: 'inherit' }}>Continue to Web!</a>
         </button>
         <br />
-        <button>
-          <a href="/community">Community</a>
+        <br />
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <button style={{ width: '260px', backgroundColor: '#EF83AD', border: 'none', padding: '10px', color: 'white' }}>
+          <a href="https://www.ecovader-mobile.biz" style={{ textDecoration: 'none', color: 'inherit' }}>See mobile version?</a>
         </button>
-      </header>
+        </div>
+        <br />
+      
     </div>
   );
 }
