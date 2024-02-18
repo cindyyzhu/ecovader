@@ -56,7 +56,8 @@ function Dashboard() {
       <header className = "flex flex-col gap-4 justify-center items-center">
         <br />
         <EcovaderLogo />
-        <h1 className="text-9xl font-bold text-white stroke-black">Your personal invasive species toolkit.
+        <h1 className="text-9xl font-bold text-white stroke-black">
+          Together We Thrive: <i>Community-Led Solutions to Invasive Species!</i>
         </h1>
         <br />
         </header>
