@@ -71,7 +71,7 @@ function Dashboard() {
         <br />
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <button style={{ width: '260px', backgroundColor: '#EF83AD', border: 'none', padding: '10px', color: 'white' }}>
-          <a href="https://www.ecovader-mobile.biz" style={{ textDecoration: 'none', color: 'inherit' }}>See mobile version?</a>
+          <a href="https://ecovader-mobile.vercel.app/" style={{ textDecoration: 'none', color: 'inherit' }}>See mobile version?</a>
         </button>
         </div>
         <br />
