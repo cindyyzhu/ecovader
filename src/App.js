@@ -1,17 +1,17 @@
 import './App.css';
-import {BrowserRouter,Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Regionselect from "./pages/Regionselect";
 import Community from "./pages/Community";
 import Identifier from "./pages/Identifier";
 
-import { useAuth0 } from "@auth0/auth0-react";  
+//import { useAuth0 } from "@auth0/auth0-react";  
 //import LoginButton from "./components/LoginButton"; 
 //import LogoutButton from "./components/LogoutButton"; 
-import Profile from "./components/Profile"; 
+//import Profile from "./components/Profile"; 
 //import LoginPage from "./pages/LoginPage";
 
-import Loading from './components/Loading';
+//import Loading from './components/Loading';
 
 
 function App() {
