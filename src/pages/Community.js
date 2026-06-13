@@ -3,8 +3,7 @@
 // import {useEffect, useState} from "react";
 // import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 import React, { useState, useEffect } from "react";
-import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
-
+import "./Community.css";
 
 function InputComponent() {
   // Declare state variables to hold input values
@@ -121,4 +120,4 @@ function Community() {
   );
 }
 
-export default withAuthenticationRequired(Community);
+export default Community;

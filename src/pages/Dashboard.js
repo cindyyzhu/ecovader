@@ -3,7 +3,6 @@ import "./Dashboard.css";
 // import {useEffect, useState} from "react";
 // import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 import React, { useState, useEffect } from "react";
-import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
 function DashboardBg() {
   return <style>{'body {background-color: #BBE3D4; }' } </style>
@@ -81,4 +80,4 @@ function Dashboard() {
   );
 }
 
-export default withAuthenticationRequired(Dashboard);
+export default Dashboard;

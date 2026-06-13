@@ -73,4 +73,4 @@ function Regionselect() {
   );
 }
 
-export default withAuthenticationRequired(Regionselect);
+export default Regionselect;

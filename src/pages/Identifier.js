@@ -103,4 +103,4 @@ function Identifier() {
   );
 }
 
-export default withAuthenticationRequired(Identifier);
+export default Identifier;
