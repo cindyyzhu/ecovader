@@ -77,7 +77,7 @@ function Dashboard() {
         <br />
       
     </div>
-  );
+  );npm install
 }
 
 export default Dashboard;
