@@ -15,14 +15,14 @@ import Loading from './components/Loading';
 
 
 function App() {
-  const { isLoading, error } = useAuth0();
+  /*const { isLoading, error } = useAuth0();
   if (error) {
     return <div>Oops... {error.message}</div>;
   }
 
   if (isLoading) {
     return <Loading />;
-  }
+  }*/
 
   return (
     <Routes>
