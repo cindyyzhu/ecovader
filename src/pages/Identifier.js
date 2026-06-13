@@ -2,6 +2,8 @@ import "./Community.css";
 // import { Link } from "react-router-dom";
 // import {useEffect, useState} from "react";
 // import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
+import React, { useState, useEffect } from "react";
+import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
 function InputComponent() {
   // Declare state variables to hold input values

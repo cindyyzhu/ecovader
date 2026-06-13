@@ -2,6 +2,8 @@ import "./Dashboard.css";
 // import { Link } from "react-router-dom";
 // import {useEffect, useState} from "react";
 // import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
+import React, { useState, useEffect } from "react";
+import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
 function DashboardBg() {
   return <style>{'body {background-color: #BBE3D4; }' } </style>
